@@ -30,7 +30,7 @@ T tests are used to determine if the PSI across all manufacturing lots is statis
 ### Questions to answer:
 * Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 * Determine if the PSI for each of the 3 manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
-### Results
+### Results: 
 
 ## Study Design: MechaCar vs Competition
 Here is a statistical study that can quantify how the MechaCar performs against the competition. What metrics would be of interest to a consumer? Suggested metrics are: cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
