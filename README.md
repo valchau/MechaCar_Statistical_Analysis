@@ -48,9 +48,21 @@ T tests are used to determine if the PSI across all manufacturing lots is statis
 * Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 * Determine if the PSI for each of the 3 manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 ### Results: 
-* A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis
+* The results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.
 <br>
 <img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/t_test_all_lots.PNG" alt="t test for all jobs" >
+<br>
+* The results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value of 1 is not low enough for us to reject the null hypothesis.
+<br>
+<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/t_test_lot1.PNG" alt="t test for lot 1" >
+<br>
+* The results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis. 
+<br>
+<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/t_test_lot2.PNG" alt="t test for lot 2" >
+<br>
+* The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
+<br>
+<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/t_test_lot3.PNG" alt="t test for lot 3" >
 <br>
 
 ## Study Design: MechaCar vs Competition
