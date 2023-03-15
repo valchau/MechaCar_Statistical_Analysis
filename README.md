@@ -17,9 +17,9 @@ The MechaCar_mpg dataset contains mpg test results for 50 prototype MechaCars. T
 ### Results:
 Multiple linear regresssion was performed in order to determine which variables (of those provided in the data) made the most difference in predicting the miles per gallon of the MechCars. The variables used were vehicle length, vehicle weight, spoiler angle, ground clearance and AWD. 
 
-•	The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. The linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10-12 and 5.21x10-8, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
-•	The slope of the linear model cannot be considered to be zero, since the p-value of 5.35x10-11 near to zero, and thus the null hypothesis should be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
-•	Although there are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149 indicates that the model is predicts 71%  of the variance in mpg.
+* The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. The linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10-12 and 5.21x10-8, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
+* The slope of the linear model cannot be considered to be zero, since the p-value of 5.35x10-11 near to zero, and thus the null hypothesis should be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
+•	The residual values are not random so although this model does predict the mpg of the MechaCar prototype with some relative effectiveness, a linear model may not be the best fit for this data. However, the r-squared value of 0.7149 indicates that the model is predicts 71%  of the variance in mpg.
 
 <img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/summary_p_r_squared_values.PNG" alt="multiple linear regression results" >
 
