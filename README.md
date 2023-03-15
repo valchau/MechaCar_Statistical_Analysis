@@ -48,6 +48,10 @@ T tests are used to determine if the PSI across all manufacturing lots is statis
 * Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 * Determine if the PSI for each of the 3 manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 ### Results: 
+* A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis
+<br>
+<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/t_test_all_lots.PNG" alt="t test for all jobs" >
+<br>
 
 ## Study Design: MechaCar vs Competition
 Here is a statistical study that can quantify how the MechaCar performs against the competition. What metrics would be of interest to a consumer? Suggested metrics are: cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
