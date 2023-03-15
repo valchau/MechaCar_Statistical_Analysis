@@ -19,7 +19,7 @@ Multiple linear regresssion was performed in order to determine which variables 
 
 * The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. The linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10-12 and 5.21x10-8, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
 * The slope of the linear model cannot be considered to be zero, since the p-value of 5.35x10-11 near to zero, and thus the null hypothesis should be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
-•	Residuals are the differences between the prediction and the actual results. The residual values are not small, so although this model does predict the mpg of the MechaCar prototype with some relative effectiveness, a linear model may not be the best fit for this data. However, the r-squared value of 0.7149 indicates that the model is predicts 71%  of the variance in mpg.
+* Residuals from linear regression models are the differences between the prediction and the actual results. The residual values are not small, so although this model does predict the mpg of the MechaCar prototype with some relative effectiveness, a linear model may not be the best fit for this data. However, the r-squared value of 0.7149 indicates that the model is predicts 71%  of the variance in mpg.
 <br>
 <img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/summary_p_r_squared_values.PNG" alt="multiple linear regression results" >
 
@@ -66,12 +66,25 @@ T tests are used to determine if the PSI across all manufacturing lots is statis
 <br>
 
 ## Study Design: MechaCar vs Competition
-Here is a statistical study that can quantify how the MechaCar performs against the competition. What metrics would be of interest to a consumer? Suggested metrics are: cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Here is a statistical study that can quantify how the MechaCar performs against the competition. What metrics would be of interest to a consumer? Suggested metrics are: cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. Currently I drive a very low cost car and cannot afford to purchase more expensive vehicle even though electric cars are now coming down in price. So for me, and many other consumers who commute to several low pay jobs each day, a car needs to be very reliable plus not cost too much in terms of maintenance and fuel costs. So mpg is important to me. 
+
 ### Questions to answer: 
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+#### Metric to test?
+A study that could be of interest would be to test MechaCar against competitor brands of similar sized and weight vehicles in terms of their reliability (parts don't fail or need replacedment) as well as fuel efficiency. Over a car's lifetime, the cost of repairs and maintance can loom large for many low income consumers.
+
+#### Null and Alternate Hypothesis
+* H0: MechaCar prototypes' average reliability is equal or worse than competitor brands of similar sized and weight vehicles 
+* Ha: MechaCar prototypes' average reliabilty is statistically better than competitor brands of similar sized and weight vehicles
+* 
+#### Statistical Test Used
+The best statistical test for this would be two-sample t-tests.
+
+#### What data is needed
+It would be necessary to carefully define reliability standards to test as well as gather this type of data for MechaCars and several other competitor brands of similar sized and weight vehicles.
+
+### a new multiple linear regression analysis
+In addition, running a new linear regression analysis trying to predict reliabity from the given data would be useful to  help MechaCar position its marketing and products against competitors.
+
 
 
 
