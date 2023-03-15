@@ -39,6 +39,7 @@ Here is the overall summary stats:
 <img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/results_total_summary.PNG" alt="summary stats overall" >
 <br>
 Here are the summary stats for each of the 3 lots separately:
+<br>
 <img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/results_lot_summaryPNG.PNG" alt="summary stats by lot" >
 
 ## T-Tests on Suspension Coils
