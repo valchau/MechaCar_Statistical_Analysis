@@ -41,7 +41,7 @@ Here is the overall summary stats:
 Here are the summary stats for each of the 3 lots separately:
 <br>
 <img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/results_lot_summaryPNG.PNG" alt="summary stats by lot" >
-
+<br>
 ## T-Tests on Suspension Coils
 T tests are used to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, as well as if each lot is statistically different from the population mean of 1,500 pounds per square inch.
 ### Questions to answer:
@@ -62,7 +62,7 @@ T tests are used to determine if the PSI across all manufacturing lots is statis
 <br>
 * The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
 <br>
-<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/t_test_lot3.PNG" alt="t test for lot 3" >
+<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/t_test_Lot3.PNG" alt="t test for lot 3" >
 <br>
 
 ## Study Design: MechaCar vs Competition
