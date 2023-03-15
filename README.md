@@ -19,7 +19,7 @@ Multiple linear regresssion was performed in order to determine which variables 
 
 * The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. The linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10-12 and 5.21x10-8, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
 * The slope of the linear model cannot be considered to be zero, since the p-value of 5.35x10-11 near to zero, and thus the null hypothesis should be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
-•	The residual values are not random so although this model does predict the mpg of the MechaCar prototype with some relative effectiveness, a linear model may not be the best fit for this data. However, the r-squared value of 0.7149 indicates that the model is predicts 71%  of the variance in mpg.
+•	Residuals are the differences between the prediction and the actual results. The residual values are not small, so although this model does predict the mpg of the MechaCar prototype with some relative effectiveness, a linear model may not be the best fit for this data. However, the r-squared value of 0.7149 indicates that the model is predicts 71%  of the variance in mpg.
 
 <img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/summary_p_r_squared_values.PNG" alt="multiple linear regression results" >
 
@@ -31,6 +31,14 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 ### Question to answer:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 ### Results:
+*	While the overall variance is under 100 psi and meets specifications, there is a problem with one of the individual lots. 
+*	As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28
+
+Here is the overall summary stats:
+<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/results_total_summary.PNG" alt="summary stats overall" >
+
+Here are the summary stats for each of the 3 lots separately:
+<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/results_total_summary.PNG" alt="summary stats overall" >
 
 ## T-Tests on Suspension Coils
 T tests are used to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, as well as if each lot is statistically different from the population mean of 1,500 pounds per square inch.
