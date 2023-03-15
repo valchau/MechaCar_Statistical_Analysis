@@ -15,7 +15,7 @@ The MechaCar_mpg dataset contains mpg test results for 50 prototype MechaCars. T
 * Is the slope of the linear model considered to be zero? Why or why not?
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 ### Results:
-<img width="629" alt="findings" src="https://github.com/valchau/PyBer_Analysis/blob/main/analysis/Totals and Averages.PNG">
+<img width="629" alt="findings" src="[https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/multiple_linear_regression_results.PNG]">
 
 ## Summary Statistics on Suspension Coils
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
