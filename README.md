@@ -15,7 +15,10 @@ The MechaCar_mpg dataset contains mpg test results for 50 prototype MechaCars. T
 * Is the slope of the linear model considered to be zero? Why or why not?
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 ### Results:
-<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/multiple_linear_regression_results.PNG" alt="multiple linear regression results" >
+Multiple linear regresssion was performed in order to determine which variables (of those provided in the data) made the most difference in predicting the miles per gallon of the MechCars. The variables used were vehicle length, vehicle weight, spoiler angle, ground clearance and AWD. The results show that the for every one unit increase in vehicle length, the mpg value is expected to increase by about 6.27, and for every one unit increase in ground clearance, the mpg value is expected to increase by about 3.55.  In addition, for every 1 unit increase in AWD, the expected mpg is expected to DECREASE by 3.4. The variables vehicle weight and spoiler angle contribute so little to the prediction of mpg, that they can be ignored. 
+
+
+<img src="https://github.com/valchau/MechaCar_Statistical_Analysis/blob/main/summary_p_r_squared_values.PNG" alt="multiple linear regression results" >
 
 ## Summary Statistics on Suspension Coils
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
